@@ -4,10 +4,9 @@ GitBook uses the Markdown syntax by default.
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
 
-
 ## Headers
 
-```markdown
+```text
 # H1
 ## H2
 ### H3
@@ -18,7 +17,7 @@ This is intended as a quick reference and showcase. For more complete info, see 
 
 Alternatively, for H1 and H2, an underline-ish style:
 
-```markdown
+```text
 Alt-H1
 ======
 
@@ -28,10 +27,9 @@ Alt-H2
 
 ## Paragraphs and Line Breaks
 
-A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
+A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. \(A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.\) Normal paragraphs should not be indented with spaces or tabs.
 
-
-```markdown
+```text
 Here's a line for us to start with.
 
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
@@ -40,10 +38,9 @@ This line is also a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
 ```
 
-
 ## Emphasis
 
-```markdown
+```text
 Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
@@ -55,9 +52,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 ## Lists
 
-(In this example, leading and trailing spaces are shown with dots: ⋅)
+\(In this example, leading and trailing spaces are shown with dots: ⋅\)
 
-```markdown
+```text
 1. First ordered list item
 2. Another item
 ⋅⋅* Unordered sub-list.
@@ -80,7 +77,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 There are two ways to create links.
 
-```markdown
+```text
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
@@ -94,23 +91,20 @@ There are two ways to create links.
 Or leave it empty and use the [link text itself]
 
 Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
 ```
 
 ## Footnotes
+
 The default footnote-style links that Markdown uses do not display on the page. Sometimes it is useful to include a non-hyperlink footnote that will be visible to the reader. GitBook supports a simple syntax for such footnotes.
 
-```markdown
+```text
 Text prior to footnote reference.[^2]
 [^2]: Comment to include in footnote.
 ```
 
 ## Images
 
-```markdown
+```text
 Here's our logo (hover to see the title text):
 
 Inline-style:
@@ -118,21 +112,20 @@ Inline-style:
 
 Reference-style:
 ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 ```
 
 ## Code and Syntax Highlighting
 
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and _Markdown Here_ -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. _Markdown Here_ supports highlighting for dozens of languages \(and not-really-languages, like diffs and HTTP headers\); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
 
-```markdown
+```text
 Inline `code` has `back-ticks around` it.
 ```
 
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+Blocks of code are either fenced by lines with three back-ticks ```````````, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
 
-<pre lang="no-highlight"><code>```javascript
+```text
+```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
@@ -144,15 +137,15 @@ print s
 
 ```
 No language indicated, so no syntax highlighting.
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+But let's throw in a <b>tag</b>.
 ```
-</code></pre>
+```
 
 ## Tables
 
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them.
+Tables aren't part of the core Markdown spec, but they are part of GFM and _Markdown Here_ supports them.
 
-```markdown
+```text
 Colons can be used to align columns.
 
 | Tables        | Are           | Cool  |
@@ -171,7 +164,7 @@ Markdown | Less | Pretty
 
 ## Blockquotes
 
-```markdown
+```text
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
 
@@ -184,7 +177,7 @@ Quote break.
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
-```markdown
+```text
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
@@ -194,10 +187,9 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 </dl>
 ```
 
-
 ## Horizontal Rule
 
-```markdown
+```text
 Three or more...
 
 ---

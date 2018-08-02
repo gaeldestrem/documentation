@@ -4,10 +4,11 @@ Allows you to specify terms and their respective definitions to be displayed in 
 
 The `GLOSSARY.md` format is very simple :
 
-````
+```text
 # term
 Definition for this term
 
 # Another term
 With it's definition, this can contain bold text and all other kinds of inline markup ...
 ```
+

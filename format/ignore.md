@@ -4,7 +4,7 @@ GitBook will read the `.gitignore`, `.bookignore` and `.ignore` files to get a l
 
 The format inside those files, follows the same convention as `.gitignore`:
 
-```
+```text
 # This is a comment
 
 # Ignore the file test.md
@@ -13,3 +13,4 @@ test.md
 # Ignore everything in the directory "bin"
 bin/*
 ```
+

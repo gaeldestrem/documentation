@@ -1,8 +1,8 @@
-# Duplicate Account
+# Duplicate
 
-It occurs that you registered with a Social Account (Facebook, Twitter, GitHub or Google), then registered again using the form.
+It occurs that you registered with a Social Account \(Facebook, Twitter, GitHub or Google\), then registered again using the form.
 
-In this case, you created two distinct accounts (one associated with your email, and another with your Social Account).
+In this case, you created two distinct accounts \(one associated with your email, and another with your Social Account\).
 
 You need to **remove** one of these account, to do so:
 

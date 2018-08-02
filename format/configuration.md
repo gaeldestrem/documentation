@@ -6,49 +6,47 @@ You can paste your `book.json` at [jsonlint.com](http://jsonlint.com) to validat
 
 All fields are optionals or default to some extracted values.
 
-
 ## Fields
 
-#### gitbook
+### gitbook
 
-```js
+```javascript
 { "gitbook": "2.x.x" }
 ```
 
-This option is used to detect which version of GitBook will be use to generate the book.
-The format is a [SEMVER](http://semver.org) condition.
+This option is used to detect which version of GitBook will be use to generate the book. The format is a [SEMVER](http://semver.org) condition.
 
-#### title
+### title
 
-```js
+```javascript
 { "title": "My Awesome Book" }
 ```
 
-This option defines the title of your book, by default this value is extracted from the **README** (first title).
+This option defines the title of your book, by default this value is extracted from the **README** \(first title\).
 
 On **gitbook.com**, this value is defined from the title entered on the platform.
 
-#### description
+### description
 
-```js
+```javascript
 { "description": "This is such a great book!" }
 ```
 
-This option defines the description of your book, by default this value is extracted from the **README** (first paragraph).
+This option defines the description of your book, by default this value is extracted from the **README** \(first paragraph\).
 
 On **gitbook.com**, this value is defined from the description entered on the platform.
 
-#### isbn
+### isbn
 
-```js
+```javascript
 { "isbn": "978-3-16-148410-0" }
 ```
 
-This option defines the ISBN associated with your book 
+This option defines the ISBN associated with your book
 
-#### language
+### language
 
-```js
+```javascript
 { "language": "fr" }
 ```
 
@@ -58,22 +56,21 @@ This option is used for internationalization and localization, it changes the te
 
 On **gitbook.com**, this value is defined from the language detected in the content or specified in the settings.
 
-#### direction
+### direction
 
-```js
+```javascript
 { "direction": "rtl" }
 ```
 
-This option is used to override the text direction from the language.
-It is recommended to set the `language` field to a language with the correct text direction instead.
+This option is used to override the text direction from the language. It is recommended to set the `language` field to a language with the correct text direction instead.
 
-#### styles
+### styles
 
 This option is used to add custom css to your book.
 
 Example:
 
-```js
+```javascript
 {
     "styles": {
         "website": "styles/website.css",
@@ -85,17 +82,17 @@ Example:
 }
 ```
 
-#### plugins
+### plugins
 
-```js
+```javascript
 { "plugins": ["mathjax"] }
 ```
 
 The list of plugins being used by a book is defined in the `book.json` configuration.
 
-#### pluginsConfig
+### pluginsConfig
 
-```js
+```javascript
 {
     "plugins": ["myplugin"],
     "pluginsConfig": {
@@ -108,13 +105,13 @@ The list of plugins being used by a book is defined in the `book.json` configura
 
 This option contains all plugins specific configurations.
 
-#### structure
+### structure
 
 This option is used to override files paths used by GitBook.
 
 For example if you want to use `INTRO.md` instead of `README.md`:
 
-```js
+```javascript
 {
     "structure": {
         "readme": "INTRO.md"
@@ -124,9 +121,9 @@ For example if you want to use `INTRO.md` instead of `README.md`:
 
 Structure types are `readme`, `langs`, `summary` and `glossary`.
 
-#### variables
+### variables
 
-```js
+```javascript
 {
     "variables": {
         "myTest": "Hello World"
@@ -134,13 +131,13 @@ Structure types are `readme`, `langs`, `summary` and `glossary`.
 }
 ```
 
-This option defines the variables values being used in [templating](./templating.md).
+This option defines the variables values being used in [templating](templating.md).
 
-#### pdf
+### pdf
 
 PDF specific options allow customization of header, footer, etc
 
-```js
+```javascript
 {
     "pdf": {
         "headerTemplate": "Header of the PDF with _TITLE_",
@@ -148,3 +145,4 @@ PDF specific options allow customization of header, footer, etc
     }
 }
 ```
+
