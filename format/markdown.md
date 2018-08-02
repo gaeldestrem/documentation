@@ -122,7 +122,7 @@ Code blocks are part of the Markdown spec, but syntax highlighting isn't. Howeve
 Inline `code` has `back-ticks around` it.
 ```
 
-Blocks of code are either fenced by lines with three back-ticks ```````````, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+Blocks of code are either fenced by lines with three back-ticks \`\`\`\`\`\`\`\`\`\`\`, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
 
 ```text
 ```javascript
@@ -135,12 +135,12 @@ s = "Python syntax highlighting"
 print s
 ```
 
-```
+```text
 No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
-```
 
+```text
 ## Tables
 
 Tables aren't part of the core Markdown spec, but they are part of GFM and _Markdown Here_ supports them.

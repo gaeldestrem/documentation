@@ -14,7 +14,7 @@ You can also narrow your search results by excluding words with the `NOT` syntax
 
 ## Query for specific field values
 
-You can filter books by including only books with a specific field value. For example: [license:apache-2](https://www.gitbook.com/search?q=license%3A"apache-2") returns the list of books with the Apache 2 license.
+You can filter books by including only books with a specific field value. For example: \[license:apache-2\]\([https://www.gitbook.com/search?q=license%3A"apache-2](https://www.gitbook.com/search?q=license%3A"apache-2)"\) returns the list of books with the Apache 2 license.
 
 ## Query for values less/greater than another value
 
