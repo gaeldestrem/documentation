@@ -5,7 +5,7 @@ Importing an existing document to GitBook is easy. Upload it when creating a boo
 ## Accepted formats
 
 | Type | Extension |
-| --- | --- |
+| :--- | :--- |
 | Microsoft Word Document | `.docx` |
 | DocBook v5.x | `.xml` |
 | HTML file | `.html` |

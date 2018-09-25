@@ -3,7 +3,7 @@
 You can extend css used in the ebooks and the website by creating files in the `styles` directory:
 
 | Type | File |
-| --- | --- |
+| :--- | :--- |
 | `website` | `styles/website.css` |
 | `pdf` | `styles/pdf.css` |
 | `epub` | `styles/epub.css` |
