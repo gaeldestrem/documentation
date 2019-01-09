@@ -33,7 +33,7 @@
 * [Custom Domains](domains.md)
 * [Account](account/README.md)
   * [Duplicate](account/duplicate.md)
-* [Organizations](organizations/README.md)
+* [Test](test/README.md)
   * [Differences with users](organizations/differences.md)
   * [Convert an user](organizations/convert.md)
   * [Transferring ownership](organizations/ownership.md)
