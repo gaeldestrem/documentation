@@ -1,0 +1,5 @@
+redirects:
+  organizations: ./test/README.md
+  organizations/convert: ./test/convert.md
+  organizations/differences: ./test/differences.md
+  organizations/ownership: ./test/ownership.md
