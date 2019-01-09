@@ -34,8 +34,8 @@
 * [Account](account/README.md)
   * [Duplicate](account/duplicate.md)
 * [Test](test/README.md)
-  * [Differences with users](organizations/differences.md)
-  * [Convert an user](organizations/convert.md)
-  * [Transferring ownership](organizations/ownership.md)
+  * [Differences with users](test/differences.md)
+  * [Convert an user](test/convert.md)
+  * [Transferring ownership](test/ownership.md)
 * [Webhooks](hooks.md)
 
