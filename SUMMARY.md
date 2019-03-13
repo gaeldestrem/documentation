@@ -1,41 +1,12 @@
 # Table of contents
 
-* [Introduction](README.md)
-* [Format](format/README.md)
-  * [Output](format/output.md)
-  * [Readme and Introduction](format/introduction.md)
-  * [Chapters and Subchapters](format/chapters.md)
-  * [Markdown](format/markdown.md)
-  * [AsciiDoc](format/asciidoc.md)
-  * [Cover](format/cover.md)
-  * [Multi-Languages](format/languages.md)
-  * [Glossary](format/glossary.md)
-  * [Templating](format/templating.md)
-  * [Content References](format/conrefs.md)
-  * [Ignoring files & folders](format/ignore.md)
-  * [Configuration](format/configuration.md)
-  * [Plugins](format/plugins.md)
-  * [Styling](format/book.md)
-  * [Math & TeX](format/math.md)
-* [Build](build/README.md)
-  * [Update with GIT](build/push.md)
-  * [Common Errors](build/errors.md)
-  * [ebook-convert](build/ebookconvert.md)
-* [Import](import.md)
-* [GitHub Integration](github/README.md)
-  * [Transferring content to GitHub](github/transferring_to_github.md)
-* [Editor](editor/README.md)
-  * [Draft Workflow](editor/draft.md)
-  * [Chapters](editor/chapters.md)
-* [Search](search.md)
-* [Taxes](taxes.md)
-* [Visibility](visibility.md)
-* [Custom Domains](domains.md)
-* [Account](account/README.md)
-  * [Duplicate](account/duplicate.md)
-* [Test](test/README.md)
-  * [Differences with users](test/differences.md)
-  * [Convert an user](test/convert.md)
-  * [Transferring ownership](test/ownership.md)
-* [Webhooks](hooks.md)
+* [Initial page](README.md)
+
+## bazinga a
+
+* [page a](bazinga-a/page-a.md)
+
+## bazinga b
+
+* [page b](bazinga-b/page-b.md)
 
