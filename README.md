@@ -1,10 +1,5 @@
 # Initial page
 
-![image](.gitbook/assets/iconactivity.svg)
-
-
-
-test
-
-test2
+![image](./assets/IconActivity.svg)
+![image2](./assets/structure.svg)
 
