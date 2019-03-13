@@ -1,3 +1,8 @@
 # Initial page
-![image](./assets/IconActivity.svg)
+
+![image](.gitbook/assets/iconactivity.svg)
+
+
+
+test
 
